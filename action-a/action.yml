@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     dafult: "World!"
+  YOUR_NAME:
+    description: "Who is greeting"
+    required: true
+    dafult: "TOAST!"
     
 runs:
   using: "docker"
